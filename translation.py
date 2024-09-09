@@ -19,17 +19,17 @@ class Translation(object):
   
 ➻ Click Help Button To Know More About Me
   
-<b>Bot Is Made By @Madflix_Bots</b>"""
+<b>Bot Is Made By @FondnessBots</b>"""
 
 
   HELP_TXT = """<b><u>🛠️ Help</b></u>
 
 <b><u>📚 Available Commands :</u></b>
-⏣ __/start - Check I'm Alive__ 
-⏣ __/forward - Forward Messages__
-⏣ __/unequify - Delete Duplicate Messages In Channels__
-⏣ __/settings - Configure Your Settings__
-⏣ __/reset - Reset Your Settings__
+⏣ __<code>/start</code> - Check I'm Alive__ 
+⏣ __<code>/forward</code> - Forward Messages__
+⏣ __<code>/unequify</code> - Delete Duplicate Messages In Channels__
+⏣ __<code>/settings</code> - Configure Your Settings__
+⏣ __<code>/reset</code> - Reset Your Settings__
 
 <b><u>💢 Features :</b></u>
 ► __Forward Message From Public Channel To Your Channel Without Admin Permission. If The Channel Is Private Need Admin Permission__
@@ -54,10 +54,10 @@ class Translation(object):
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>📢 Channel :</b> <a href='https://t.me/FondnessBots'>Madflix Botz</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/BalaPriyan'>Jishu Developer</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @FondnessBots"""
   
   STATUS_TXT = """<b><u>Bot Status</u></b>
   
