@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -b 0.0.0.0:8000 main:backapp
+web:gunicorn app:app & python3 main.py
