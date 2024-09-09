@@ -200,9 +200,9 @@ async def edit(msg, title, status, sts):
    elapsed_time = round(diff) * 1000
    time_to_completion = round(sts.divide(i.total - i.fetched, int(speed))) * 1000
    estimated_total_time = elapsed_time + time_to_completion  
-   progress = "▰{0}{1}".format(
-       ''.join(["▰" for i in range(math.floor(int(percentage) / 10))]),
-       ''.join(["▱" for i in range(10 - math.floor(int(percentage) / 10))]))
+   progress = "⬢{0}{1}".format(
+       ''.join(["⬢" for i in range(math.floor(int(percentage) / 10))]),
+       ''.join(["⬡" for i in range(10 - math.floor(int(percentage) / 10))]))
    button =  [[InlineKeyboardButton(title, f'fwrdstatus#{status}#{estimated_total_time}#{percentage}#{i.id}')]]
    estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
    estimated_total_time = estimated_total_time if estimated_total_time != '' else '0 s'
@@ -210,8 +210,8 @@ async def edit(msg, title, status, sts):
    text = TEXT.format(i.fetched, i.total_files, i.duplicate, i.deleted, i.skip, status, percentage, estimated_total_time, progress)
    if status in ["cancelled", "completed"]:
       button.append(
-         [InlineKeyboardButton('📢 Updates', url='https://t.me/Madflix_Bots'),
-         InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')]
+         [InlineKeyboardButton('📢 Updates', url='https://t.me/FondnessBots'),
+         InlineKeyboardButton('💬 Support', url='https://t.me/FondnessBotsSupport')]
          )
    else:
       button.append([InlineKeyboardButton('✖️ Cancel ✖️', 'terminate_frwd')])
